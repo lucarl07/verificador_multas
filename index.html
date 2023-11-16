@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Multas</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="app">
+
+        <div class="box" id="verifMultas">
+            <label for="velocidade">
+                <span class="titulo">Informe a velocidade (em km/h):</span>
+            </label>
+    
+            <input type="number" id="velocidade" class="input" placeholder="Digite a sua velocidade"/>
+    
+            <button onclick="verifyFine()">Verificar multa</button>
+        </div>
+    
+        <div class="box" id="saidaApp">
+            <p class="texto" id="resultado">
+                Aqui aparecerá o resultado...
+            </p>
+        </div>
+
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
